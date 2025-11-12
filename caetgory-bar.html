@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .category-nav {
+            display: flex;
+            border: 1px solid grey;
+        }
+
+        .category-nav a {
+            display: inline-block;
+            align-items: center;
+            justify-content: center;
+            gap: 8px; 
+            padding: 20px 20px;
+            background-image: linear-gradient(rgb(225, 169, 165), rgb(250, 230, 228), rgb(225, 169, 165));
+            width: 100%;
+            text-align: center;
+            text-decoration-line: none;
+            border: 1px solid grey;
+            border-bottom: none;
+            border-top: none;
+            color: black;
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: 700;            
+        }
+
+        .category-nav a:active {
+            background-image: linear-gradient(rgb(252, 236, 235), rgb(225, 169, 165), rgb(252, 236, 235));
+            color: black;
+        }
+        .category-nav a img {
+            width: 24px;
+            object-fit: contain;
+        }
+
+        .category-navigation iframe {
+            min-width: 100%;
+            flex: 1 1 auto; /* fill the rest */
+            border: none;
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="category-navigation">
+        <div class="category-nav">
+            <a href="#" onclick="homeSofas()">HOME SOFAS</a>
+            <a href="#" onclick="officeSofas()">OFFICE SOFAS</a>
+            <a href="#" onclick="hotelSofas()">HOTEL SOFAS</a>
+        </div>
+
+        <iframe id="load-cards" src="home sofas.html" frameborder="0"></iframe>
+    </div>
+
+    <script>
+        function homeSofas() {
+            let myPage = "home sofas.html";
+            let myElement = document.getElementById("load-cards");
+            myElement.src = myPage;
+        }
+
+        function officeSofas() {
+            let myPage = "office sofas.html";
+            let myElement = document.getElementById("load-cards");
+            myElement.src = myPage;
+        }
+
+        function hotelSofas() {
+            let myPage = "hotel sofas.html";
+            let myElement = document.getElementById("load-cards");
+            myElement.src = myPage;
+        }
+    </script>
+</body>
+</html>
