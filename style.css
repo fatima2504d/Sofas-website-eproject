@@ -1,0 +1,166 @@
+
+ .row{
+    
+    background-color: white
+}
+
+.col-md-4{
+    padding-left: 5%;
+    padding-right: 5%;
+    font-weight: 500;
+    /* color: rgb(230, 104, 25); */
+    font-size: xx-large;
+}
+  .col-md-2{
+    /* border: 2px solid rgb(170, 173, 175);
+    border-radius: 8px; */
+    padding-left: 5%;
+    padding-right: 5%;
+    font-weight: 500;
+    margin-top: 10px;
+    
+}  
+a{    
+    color: black;
+    font-size: large;
+    text-decoration: none;
+    margin: 5px;
+    color: rgb(161, 49, 71);
+}
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+
+}
+
+.card-container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 100px;
+    box-shadow: 0px 2px 4px rgba(160, 156, 156, 0.2);
+
+}
+.card{
+    width: 325px;
+    background-color: #c1bdbd;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0px 2px 4px rgba(160, 156, 156, 0.2);
+    margin: 20px;
+}
+.card img{
+    width: 330px;
+    height: 300px;
+}
+.card-content{
+    padding: 15px;
+}
+.card-content h3{
+    font-size: 28px;
+    margin-bottom: 15px;
+}
+.card-content p{
+    color: black;
+    font-size: 15px;
+    line-height: 1.4;
+}
+.card-content .btn, .contact-btn{
+    display: inline-block;
+    padding: 8px 16px;
+    background-color: rgb(146, 128, 134);
+    text-decoration: none;
+    border-radius: 7px;
+    margin-top: 16px;
+    color: rgb(51, 7, 15);
+
+}
+.btn:hover, .contact-btn:hover{
+    color: rgb(161, 49, 71);
+}
+
+.contact-btn {
+    width: 500px;
+}
+
+h1{
+    font: larger; font-family: sans-serif;
+    color: rgb(165, 14, 60);
+}
+p ul li{
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(22, 29, 55);
+    font-weight: 300;
+}
+.contact {
+    margin-left: 40%;
+    color: rgb(161, 49, 71);
+}
+.para{
+    margin-left: 40%;
+    color: rgb(161, 49, 71);
+}
+.footer{
+    background-color: #7e3838;
+    padding: 100px;
+}
+.foot-menu{
+    float: left;
+    width: 30%;
+}  
+.foot-menu h3{
+     font-size: 18px;
+}
+.foot-menu ul{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+.foot-menu ul li a{
+    font-size: 18px;
+    line-height: 20px;
+    color: rgb(135, 136, 141);
+}  
+.foot-menu ul li a:hover{
+    color: rgb(94, 22, 36);
+}
+.heading{
+     text-align: center;
+}
+.paragraph{
+    text-align: center;
+}
+     /* css of services */
+
+     .background-filler {
+            background-image: url("guy_working_wood.png");
+            background-repeat: no-repeat;
+            background-size: cover;
+            height: 600px;
+            
+        }
+        h1{
+            font-weight: 700;
+            font-size: 80px;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+        }
+        p{
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-size: 30px;
+        }
+
+        .background-filler div {
+            background-image: linear-gradient(to right, rgb(249, 190, 216), transparent);
+            height: 600px;
+            padding-top: 150px;
+            padding-left: 50px;
+        }
+
+        .services-main{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+
